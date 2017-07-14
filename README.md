@@ -10,8 +10,9 @@ Database: Sqlite
 
 Postman Collection Link: https://www.getpostman.com/collections/03bb1c5ab0abceff8896
 
+```
 
-Steps for ruuning app:
+Steps for runing app:
 
 Clone repo
 
@@ -26,6 +27,7 @@ rails s
 server will run on localhost/3000
 
 
+```
 
 Api to get all blog posts 5 records per call.
 
@@ -39,7 +41,7 @@ params: page number
 sample output:
 ==============
 
-``
+```
 
 [
     {
@@ -96,7 +98,7 @@ sample output:
 
 
 
-``
+```
 
 
 Api to list blog with all content including comments per aragraph
@@ -111,7 +113,7 @@ params:  blog_id
 sample output:
 ===============
 
-``
+```
 {
     "id": 33,
     "title": "new onw\\e",
@@ -136,7 +138,7 @@ sample output:
         }
     ]
 }
-``
+```
 
 Api to create a blog
 
@@ -156,7 +158,7 @@ blogger[paragraphs] : "hiioh\n\n hdkhkjf\n\n"
 Sample Output
 ===============
 
-``
+```
 {
     "id": 37,
     "title": "new onw\\e",
@@ -169,7 +171,7 @@ Sample Output
     ]
 }
 
-``
+```
 
 Api to create comments on a paragraph
 
@@ -185,7 +187,7 @@ comment[body]: "dfffd new comment"
 Sample Output
 ==============
 
-``
+```
 {
     "id": 6,
     "body": "newww",
@@ -198,7 +200,7 @@ Sample Output
     }
 }
 
-``
+```
 
 
 
