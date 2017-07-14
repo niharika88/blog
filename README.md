@@ -1,4 +1,5 @@
-== README
+README
+========
 
 This application allows one to add comments on paragraphs of a blog post.
 
@@ -12,7 +13,8 @@ Postman Collection Link: https://www.getpostman.com/collections/03bb1c5ab0abceff
 
 ```
 
-Steps for runing app:
+Steps for running app:
+======================
 
 Clone repo
 
