@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Paragraphs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Data</th>
+      <th>Blogger</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @paragraphs.each do |paragraph| %>
+      <tr>
+        <td><%= paragraph.data %></td>
+        <td><%= paragraph.blogger %></td>
+        <td><%= link_to 'Show', paragraph %></td>
+        <td><%= link_to 'Edit', edit_paragraph_path(paragraph) %></td>
+        <td><%= link_to 'Destroy', paragraph, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Paragraph', new_paragraph_path %>

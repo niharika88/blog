@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Data:</strong>
+  <%= @paragraph.data %>
+</p>
+
+<p>
+  <strong>Blogger:</strong>
+  <%= @paragraph.blogger %>
+</p>
+
+<%= link_to 'Edit', edit_paragraph_path(@paragraph) %> |
+<%= link_to 'Back', paragraphs_path %>
